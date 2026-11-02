@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 6</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body class="light">
+
+    <h1 id="portfolio-title">Welcome to My Portfolio</h1>
+    <h2 class="greeting">Headline Placeholder</h2>
+    <p class="intro">Introduction to me</p>
+    <button id="btn-light">Light Theme</button>
+    <button id="btn-dark">Dark Theme</button>
+    <hr>
+
+    <h2>About Me</h2>
+    <p>Short biography.</p>
+    <p id="status-message">Currently preparint to endterms</p>
+    <ul><li>Fact 1: Love sleeping</li><li>Fact 2: Enjoy automation</li></ul>
+    <button id="btn-hide">Hide Status</button>
+    <button id="btn-show">Show Status</button>
+    <button id="btn-toggle">Toggle Status</button>
+    <hr>
+
+    <h2>Gallery</h2>
+    <img src="https://images.unsplash.com/photo-1768639527374-5a0071b66fd7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" class="gallery-img" alt="Profile">
+    <img src="https://images.unsplash.com/photo-1542736637-74169a802172?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" class="gallery-img" alt="Hobby">
+    <br>
+    <button id="btn-fadeout">Fade Out</button>
+    <button id="btn-fadein">Fade In</button>
+    <button id="btn-fadetoggle">Fade Toggle</button>
+    <hr>
+
+    <h3 class="slide-title">My Favorite Music</h3>
+    <div class="panel">ORDA "Zhauap Ber"</div>
+    
+    <h3 class="slide-title">My Favorite Movie</h3>
+    <div class="panel">OldBoy "2003"</div>
+    
+    <h3 class="slide-title">My Favorite Subject</h3>
+    <div class="panel">Software Engineering</div>
+
+    <button id="btn-slideup">Slide Up All</button>
+    <button id="btn-slidedown">Slide Down All</button>
+    <hr>
+
+    <h2>Technical Skills</h2>
+    <ul id="skills-list">
+        <li>Canva</li><li>Python</li><li>C++</li><li>Frontend</li>
+    </ul>
+    <input type="text" id="skill-input" placeholder="Enter new skill">
+    <button id="btn-add">Add Skill</button>
+    <button id="btn-prepend">Prepend Skill</button>
+    <button id="btn-remove">Remove Last Skill</button>
+    
+    <h3>Skill Levels</h3>
+    <div>C++ <div class="skill-bar" data-width="85%"></div></div>
+    <div>Python <div class="skill-bar" data-width="90%"></div></div>
+    <div>Canva <div class="skill-bar" data-width="70%"></div></div>
+    <button id="btn-animate">Animate</button>
+    <hr>
+
+    <h2>Social Links</h2>
+    <a id="social-link" href="https://github.com">GitHub</a><br>
+    <button id="btn-attr">Change to LinkedIn</button>
+    <hr>
+
+    <h2>Contact Form</h2>
+    <input type="text" id="input-name" placeholder="Name">
+    <input type="email" id="input-email" placeholder="Email">
+    <p>Live Input: <span id="live-name"></span> | <span id="live-email"></span></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
